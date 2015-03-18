@@ -26,9 +26,6 @@
     //设置背景色
     window.backgroundColor=[UIColor whiteColor];
     
-    //配置根控制器
-    [self appEntranceWithWindow:window];
-    
     //成为主窗口
     [window makeKeyAndVisible];
     
@@ -36,22 +33,6 @@
     return window;
 }
 
-
-#pragma mark  程序入口
-+(void)appEntranceWithWindow:(UIWindow *)window{
-    
-    window.rootViewController=[self rootViewControllerCreate];
-
-}
-
-
-
-#pragma mark  程序根控制器
-+(UIViewController *)rootViewControllerCreate{
-
-    return nil;
-    
-}
 
 
 

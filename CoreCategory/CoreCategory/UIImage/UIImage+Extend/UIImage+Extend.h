@@ -46,5 +46,10 @@
 +(UIImage *)resizeWithImageName:(NSString *)name;
 
 
+/**
+ *  获取启动图片
+ */
++(UIImage *)launchImage;
+
 
 @end

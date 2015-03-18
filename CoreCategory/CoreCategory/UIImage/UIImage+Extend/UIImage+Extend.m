@@ -13,6 +13,19 @@
 
 
 /**
+ *  获取启动图片
+ */
++(UIImage *)launchImage{
+    
+    NSString *imageName=@"LaunchImage-700";
+    
+    if(iphone5x_4_0) imageName=@"LaunchImage-700-568h";
+    
+    return [UIImage imageNamed:imageName];
+}
+
+
+/**
  *  根据不同的iphone屏幕大小自动加载对应的图片名
  *  加载规则：
  *  iPhone4:             默认图片名，无后缀

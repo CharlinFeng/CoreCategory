@@ -38,6 +38,6 @@
 //mvc视图填充数据方法名
 #define kDataFill @"dataFill:"
 
-
+#define StrFromInteger(i) [NSString stringWithFormat:@"%@",@(i)]
 
 
