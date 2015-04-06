@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+File.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+ 
+    
+    //document
+    NSString *document=[NSString documentFolder];
+    //caches
+    NSString *caches=[NSString cachesFolder];
+    
+    NSString *myFolder = [document createSubFolder:@"myFolder"];
+    
+    NSLog(@"%@",myFolder);
 }
 
 @end

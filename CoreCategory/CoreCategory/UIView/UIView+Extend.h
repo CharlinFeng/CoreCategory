@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CoreConst.h"
+
 
 #define CustomViewTranslate(ViewClass,view) (ViewClass *)view;
 

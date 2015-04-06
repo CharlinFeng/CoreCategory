@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CoreConst.h"
+
 
 @interface UIButton (ImageBtn)
 

@@ -54,7 +54,7 @@
     
     //设置转场动画的类型
     NSArray *animArray=@[@"rippleEffect",@"suckEffect",@"pageCurl",@"oglFlip",@"cube",@"reveal",@"pageUnCurl"];
-    NSUInteger i=arc4random_uniform(animArray.count);
+    NSUInteger i=arc4random_uniform((u_int32_t)animArray.count);
     
     if(CAAnimationTransitionTypeRamdon == type) return animArray[i];
     
