@@ -56,7 +56,6 @@
 		89999A9F1AD2C67A00E65267 /* UIWindow+Launch.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A8D1AD2C67A00E65267 /* UIWindow+Launch.m */; };
 		89999AA21AD2C70800E65267 /* NSDate+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999AA11AD2C70800E65267 /* NSDate+Extend.m */; };
 		89999AA51AD2CF5400E65267 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999AA41AD2CF5400E65267 /* NSString+Extend.m */; };
-		89999AA81AD2D15900E65267 /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999AA71AD2D15900E65267 /* NSString+File.m */; };
 		D6A615AE1AAAA33C006CCBF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615AD1AAAA33C006CCBF3 /* main.m */; };
 		D6A615B11AAAA33C006CCBF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615B01AAAA33C006CCBF3 /* AppDelegate.m */; };
 		D6A615B41AAAA33C006CCBF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A615B31AAAA33C006CCBF3 /* ViewController.m */; };
@@ -149,8 +148,6 @@
 		89999AA11AD2C70800E65267 /* NSDate+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extend.m"; sourceTree = "<group>"; };
 		89999AA31AD2CF5400E65267 /* NSString+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
 		89999AA41AD2CF5400E65267 /* NSString+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
-		89999AA61AD2D15900E65267 /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
-		89999AA71AD2D15900E65267 /* NSString+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
 		D6A615A81AAAA33C006CCBF3 /* CoreCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A615AC1AAAA33C006CCBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6A615AD1AAAA33C006CCBF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -302,8 +299,6 @@
 				89999A6A1AD2C67A00E65267 /* NSString+Password.m */,
 				89999AA31AD2CF5400E65267 /* NSString+Extend.h */,
 				89999AA41AD2CF5400E65267 /* NSString+Extend.m */,
-				89999AA61AD2D15900E65267 /* NSString+File.h */,
-				89999AA71AD2D15900E65267 /* NSString+File.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -587,7 +582,6 @@
 				89999A9D1AD2C67A00E65267 /* UIImage+TintColor.m in Sources */,
 				89999A961AD2C67A00E65267 /* UIImage+Blur.m in Sources */,
 				89999A941AD2C67A00E65267 /* UIColor+Extend.m in Sources */,
-				89999AA81AD2D15900E65267 /* NSString+File.m in Sources */,
 				89999A8E1AD2C67A00E65267 /* CAAnimation+Make.m in Sources */,
 				89999A901AD2C67A00E65267 /* NSObject+Extend.m in Sources */,
 				89999A8F1AD2C67A00E65267 /* NSArray+Extend.m in Sources */,
