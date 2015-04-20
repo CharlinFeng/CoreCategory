@@ -10,60 +10,93 @@
 
 
 
-
-
 @implementation CAAnimation (Make)
-
 
 /**
  *  转场动画
  *
- *  @param type 类型
+ *  @param animType 转场动画类型
+ *  @param subtype  转动动画方向
+ *  @param curve    转动动画曲线
+ *  @param duration 转动动画时长
  *
  *  @return 转场动画实例
  */
-+(CATransition *)animationForRandomTransitionForType:(CAAnimationTransitionType)type{
++(CATransition *)transitionWithAnimType:(CAAnimationTransitionAnimType)animType subType:(CAAnimationTransitionSubType)subType curve:(CAAnimationTransitionCurve)curve duration:(CGFloat)duration{
     
     CATransition *transition=[CATransition animation];
     
     //动画时长
-    transition.duration=.8f;
+    transition.duration=duration;
     
-    NSInteger i=arc4random_uniform(10);
+    //动画类型
+    transition.type=[self animaTypeWithTransitionType:animType];
     
-    transition.type=[self animaTypeWithTransitionType:type];
+    //动画方向
+    transition.subtype=[self animaSubtype:subType];
     
-    NSUInteger subIndex=i%4;
+    //缓动函数
+    transition.timingFunction=[CAMediaTimingFunction functionWithName:[self curve:curve]];
+    
+    //完成动画删除
+    transition.removedOnCompletion = YES;
+    
+    return transition;
+}
+
+
+
+/*
+ *  返回动画曲线
+ */
++(NSString *)curve:(CAAnimationTransitionCurve)curve{
+    
+    //曲线数组
+    NSArray *funcNames=@[kCAMediaTimingFunctionDefault,kCAMediaTimingFunctionEaseIn,kCAMediaTimingFunctionEaseInEaseOut,kCAMediaTimingFunctionEaseOut,kCAMediaTimingFunctionLinear];
+    
+    return [self objFromArray:funcNames index:curve isRamdom:(CAAnimationTransitionCurveRamdom == curve)];
+}
+
+
+
+/*
+ *  返回动画方向
+ */
++(NSString *)animaSubtype:(CAAnimationTransitionSubType)subType{
     
     //设置转场动画的方向
     NSArray *subtypes=@[kCATransitionFromTop,kCATransitionFromLeft,kCATransitionFromBottom,kCATransitionFromRight];
-    transition.subtype=subtypes[subIndex];
     
-    //时间函数
-    NSUInteger timingFunctionIndex=i%5;
-    NSArray *funcNames=@[kCAMediaTimingFunctionDefault,kCAMediaTimingFunctionEaseIn,kCAMediaTimingFunctionEaseInEaseOut,kCAMediaTimingFunctionEaseOut,kCAMediaTimingFunctionLinear];
-    transition.timingFunction=[CAMediaTimingFunction functionWithName:funcNames[timingFunctionIndex]];
-    
-    return transition;
-    
+    return [self objFromArray:subtypes index:subType isRamdom:(CAAnimationTransitionSubtypesFromRamdom == subType)];
 }
 
 
 
-+(NSString *)animaTypeWithTransitionType:(CAAnimationTransitionType)type{
+
+/*
+ *  返回动画类型
+ */
++(NSString *)animaTypeWithTransitionType:(CAAnimationTransitionAnimType)type{
     
     //设置转场动画的类型
     NSArray *animArray=@[@"rippleEffect",@"suckEffect",@"pageCurl",@"oglFlip",@"cube",@"reveal",@"pageUnCurl"];
-    NSUInteger i=arc4random_uniform((u_int32_t)animArray.count);
     
-    if(CAAnimationTransitionTypeRamdon == type) return animArray[i];
-    
-    if(CAAnimationTransitionTypeWater == type) return animArray[0];
-    
-    return animArray[i];
+    return [self objFromArray:animArray index:type isRamdom:(CAAnimationTransitionAnimTypeRamdom == type)];
 }
 
 
+
+/*
+ *  统一从数据返回对象
+ */
++(id)objFromArray:(NSArray *)array index:(NSUInteger)index isRamdom:(BOOL)isRamdom{
+    
+    NSUInteger count = array.count;
+    
+    NSUInteger i = isRamdom?arc4random_uniform((u_int32_t)count) : index;
+    
+    return array[i];
+}
 
 
 
