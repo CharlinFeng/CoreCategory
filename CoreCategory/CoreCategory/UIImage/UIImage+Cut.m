@@ -12,17 +12,75 @@
 
 
 
+/**
+ *  图片剪切为圆形
+ *
+ *  @param originalImage 原始图片
+ *
+ *  @return 剪切后的圆形图片
+ */
+-(UIImage *)roundImage{
+    
+    //获取size
+    CGSize size = [self sizeFromImage:self];
+    
+    CGRect rect = (CGRect){CGPointZero,size};
+    
+    //新建一个图片图形上下文
+    UIGraphicsBeginImageContextWithOptions(size, NO, 0.0f);
+    
+    //获取上下文
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    
+    //绘制圆形路径
+    CGContextAddEllipseInRect(ctx, rect);
+    
+    //剪裁上下文
+    CGContextClip(ctx);
+    
+    //绘制图片
+    [self drawInRect:rect];
+    
+    //取出图片
+    UIImage *roundImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    //结束上下文
+    UIGraphicsEndImageContext();
 
-#pragma mark  直接截屏
+    return roundImage;
+}
+
+
+
+-(CGSize)sizeFromImage:(UIImage *)image{
+    
+    CGSize size = image.size;
+    
+    CGFloat wh =MIN(size.width, size.height);
+    
+    return CGSizeMake(wh, wh);
+}
+
+
+
+
+
+
+/*
+ *  直接截屏
+ */
 +(UIImage *)cutScreen{
     return [self cutFromView:[UIApplication sharedApplication].keyWindow];
 }
 
 
+
+
+
 +(UIImage *)cutFromView:(UIView *)view{
     
     //开启图形上下文
-    UIGraphicsBeginImageContextWithOptions(view.frame.size, 1, 0);
+    UIGraphicsBeginImageContextWithOptions(view.frame.size, NO, 0.0f);
     
     //获取上下文
     CGContextRef context = UIGraphicsGetCurrentContext();
