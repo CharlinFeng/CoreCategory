@@ -26,7 +26,7 @@
 /**
  *  SHA1加密
  */
-@property (nonatomic,copy) NSString *sha1;
+@property (nonatomic,copy,readonly) NSString *sha1;
 
 
 

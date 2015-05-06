@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIImage+Extend.h"
+#import "UIImage+Color.h"
 
 @interface ViewController ()
 
@@ -18,13 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
  
-    UIImage *image = [UIImage imageNamed:@"sun"];
+    UIImage *image = [UIImage imageNamed:@"ep"];
     
-    [image savedPhotosAlbum:^{
-       
-        
-        NSLog(@"回调");
-    }];
+    UIImageView *imageV=[[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    imageV.image = [image imageWithGradientTintColor:[UIColor greenColor
+                                                      ]];
+    [self.view addSubview:imageV];
 }
 
 @end
