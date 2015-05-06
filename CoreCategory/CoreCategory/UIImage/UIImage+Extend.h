@@ -35,4 +35,8 @@
 +(UIImage *)launchImage;
 
 
+
+-(void)savedPhotosAlbum:(void(^)())completeBlock;
+
+
 @end

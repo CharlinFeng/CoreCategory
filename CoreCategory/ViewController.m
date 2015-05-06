@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIImage+Water.h"
+#import "UIImage+Extend.h"
 
 @interface ViewController ()
 
@@ -18,15 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
  
-    UIImage *oringalImage = [UIImage imageNamed:@"scene"];
+    UIImage *image = [UIImage imageNamed:@"sun"];
     
-    //添加水印
-    UIImage *waterImage = [oringalImage waterWithText:@"新浪奇趣" direction:ImageWaterDirectCenter fontColor:[UIColor whiteColor] fontPoint:16 marginXY:CGPointMake(0, 0)];
-    
-    UIImageView *imageV = [[UIImageView alloc] initWithImage:waterImage];
-    
-
-    [self.view addSubview:imageV];
+    [image savedPhotosAlbum:^{
+       
+        
+        NSLog(@"回调");
+    }];
 }
 
 @end

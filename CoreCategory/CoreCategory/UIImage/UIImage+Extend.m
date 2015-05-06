@@ -8,6 +8,16 @@
 
 #import "UIImage+Extend.h"
 #import "CoreConst.h"
+#import <objc/runtime.h>
+
+static const void *CompleteBlockKey = &CompleteBlockKey;
+
+
+@interface UIImage ()
+
+@property (nonatomic,copy)  void(^CompleteBlock)();
+
+@end
 
 
 @implementation UIImage (Extend)
@@ -82,15 +92,31 @@
 
 
 
+-(void)savedPhotosAlbum:(void(^)())completeBlock{
+    
+    UIImageWriteToSavedPhotosAlbum(self, self, @selector(image:didFinishSavingWithError:contextInfo:completeBlock:),NULL);
+    
+    self.CompleteBlock = completeBlock;
+}
 
 
 
 
+- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo completeBlock:(void(^)())completeBlock{
+    
+    if(error == nil){
+        if(self.CompleteBlock != nil) self.CompleteBlock();
+    }
+
+}
 
 
+-(void (^)())CompleteBlock{
+    return objc_getAssociatedObject(self, CompleteBlockKey);
+}
 
-
-
-
+-(void)setCompleteBlock:(void (^)())CompleteBlock{
+    objc_setAssociatedObject(self, CompleteBlockKey, CompleteBlock, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
 
 @end
