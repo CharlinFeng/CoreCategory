@@ -42,17 +42,12 @@
 		89999A8F1AD2C67A00E65267 /* NSArray+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A631AD2C67A00E65267 /* NSArray+Extend.m */; };
 		89999A901AD2C67A00E65267 /* NSObject+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A671AD2C67A00E65267 /* NSObject+Extend.m */; };
 		89999A911AD2C67A00E65267 /* NSString+Password.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A6A1AD2C67A00E65267 /* NSString+Password.m */; };
-		89999A931AD2C67A00E65267 /* UIButton+ImageBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A6F1AD2C67A00E65267 /* UIButton+ImageBtn.m */; };
 		89999A941AD2C67A00E65267 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A721AD2C67A00E65267 /* UIColor+Extend.m */; };
 		89999A951AD2C67A00E65267 /* UIFont+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A751AD2C67A00E65267 /* UIFont+Extend.m */; };
-		89999A961AD2C67A00E65267 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A781AD2C67A00E65267 /* UIImage+Blur.m */; };
 		89999A971AD2C67A00E65267 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A7A1AD2C67A00E65267 /* UIImage+Color.m */; };
 		89999A981AD2C67A00E65267 /* UIImage+Cut.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A7C1AD2C67A00E65267 /* UIImage+Cut.m */; };
 		89999A991AD2C67A00E65267 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A7E1AD2C67A00E65267 /* UIImage+Extend.m */; };
 		89999A9A1AD2C67A00E65267 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A801AD2C67A00E65267 /* UIImage+FixOrientation.m */; };
-		89999A9B1AD2C67A00E65267 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A821AD2C67A00E65267 /* UIImage+ImageEffects.m */; };
-		89999A9C1AD2C67A00E65267 /* UIImage+RTTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A851AD2C67A00E65267 /* UIImage+RTTint.m */; };
-		89999A9D1AD2C67A00E65267 /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A871AD2C67A00E65267 /* UIImage+TintColor.m */; };
 		89999A9E1AD2C67A00E65267 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A8A1AD2C67A00E65267 /* UIView+Extend.m */; };
 		89999A9F1AD2C67A00E65267 /* UIWindow+Launch.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999A8D1AD2C67A00E65267 /* UIWindow+Launch.m */; };
 		89999AA21AD2C70800E65267 /* NSDate+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 89999AA11AD2C70800E65267 /* NSDate+Extend.m */; };
@@ -121,14 +116,10 @@
 		89999A671AD2C67A00E65267 /* NSObject+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extend.m"; sourceTree = "<group>"; };
 		89999A691AD2C67A00E65267 /* NSString+Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Password.h"; sourceTree = "<group>"; };
 		89999A6A1AD2C67A00E65267 /* NSString+Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Password.m"; sourceTree = "<group>"; };
-		89999A6E1AD2C67A00E65267 /* UIButton+ImageBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageBtn.h"; sourceTree = "<group>"; };
-		89999A6F1AD2C67A00E65267 /* UIButton+ImageBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageBtn.m"; sourceTree = "<group>"; };
 		89999A711AD2C67A00E65267 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
 		89999A721AD2C67A00E65267 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
 		89999A741AD2C67A00E65267 /* UIFont+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extend.h"; sourceTree = "<group>"; };
 		89999A751AD2C67A00E65267 /* UIFont+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extend.m"; sourceTree = "<group>"; };
-		89999A771AD2C67A00E65267 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
-		89999A781AD2C67A00E65267 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
 		89999A791AD2C67A00E65267 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		89999A7A1AD2C67A00E65267 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		89999A7B1AD2C67A00E65267 /* UIImage+Cut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Cut.h"; sourceTree = "<group>"; };
@@ -137,12 +128,6 @@
 		89999A7E1AD2C67A00E65267 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
 		89999A7F1AD2C67A00E65267 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
 		89999A801AD2C67A00E65267 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
-		89999A811AD2C67A00E65267 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		89999A821AD2C67A00E65267 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		89999A841AD2C67A00E65267 /* UIImage+RTTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RTTint.h"; sourceTree = "<group>"; };
-		89999A851AD2C67A00E65267 /* UIImage+RTTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RTTint.m"; sourceTree = "<group>"; };
-		89999A861AD2C67A00E65267 /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
-		89999A871AD2C67A00E65267 /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
 		89999A891AD2C67A00E65267 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
 		89999A8A1AD2C67A00E65267 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
 		89999A8C1AD2C67A00E65267 /* UIWindow+Launch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Launch.h"; sourceTree = "<group>"; };
@@ -249,7 +234,6 @@
 				89999A641AD2C67A00E65267 /* NSDate */,
 				89999A651AD2C67A00E65267 /* NSObject */,
 				89999A681AD2C67A00E65267 /* NSString */,
-				89999A6D1AD2C67A00E65267 /* UIButton */,
 				89999A701AD2C67A00E65267 /* UIColor */,
 				89999A731AD2C67A00E65267 /* UIFont */,
 				89999A761AD2C67A00E65267 /* UIImage */,
@@ -306,15 +290,6 @@
 			path = NSString;
 			sourceTree = "<group>";
 		};
-		89999A6D1AD2C67A00E65267 /* UIButton */ = {
-			isa = PBXGroup;
-			children = (
-				89999A6E1AD2C67A00E65267 /* UIButton+ImageBtn.h */,
-				89999A6F1AD2C67A00E65267 /* UIButton+ImageBtn.m */,
-			);
-			path = UIButton;
-			sourceTree = "<group>";
-		};
 		89999A701AD2C67A00E65267 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
@@ -338,8 +313,6 @@
 			children = (
 				891994AF1AE636AA0049CD62 /* UIImage+Water.h */,
 				891994B01AE636AA0049CD62 /* UIImage+Water.m */,
-				89999A771AD2C67A00E65267 /* UIImage+Blur.h */,
-				89999A781AD2C67A00E65267 /* UIImage+Blur.m */,
 				89999A791AD2C67A00E65267 /* UIImage+Color.h */,
 				89999A7A1AD2C67A00E65267 /* UIImage+Color.m */,
 				89999A7B1AD2C67A00E65267 /* UIImage+Cut.h */,
@@ -348,22 +321,8 @@
 				89999A7E1AD2C67A00E65267 /* UIImage+Extend.m */,
 				89999A7F1AD2C67A00E65267 /* UIImage+FixOrientation.h */,
 				89999A801AD2C67A00E65267 /* UIImage+FixOrientation.m */,
-				89999A811AD2C67A00E65267 /* UIImage+ImageEffects.h */,
-				89999A821AD2C67A00E65267 /* UIImage+ImageEffects.m */,
-				89999A831AD2C67A00E65267 /* UIImage+TintColor */,
 			);
 			path = UIImage;
-			sourceTree = "<group>";
-		};
-		89999A831AD2C67A00E65267 /* UIImage+TintColor */ = {
-			isa = PBXGroup;
-			children = (
-				89999A841AD2C67A00E65267 /* UIImage+RTTint.h */,
-				89999A851AD2C67A00E65267 /* UIImage+RTTint.m */,
-				89999A861AD2C67A00E65267 /* UIImage+TintColor.h */,
-				89999A871AD2C67A00E65267 /* UIImage+TintColor.m */,
-			);
-			path = "UIImage+TintColor";
 			sourceTree = "<group>";
 		};
 		89999A881AD2C67A00E65267 /* UIView */ = {
@@ -582,22 +541,17 @@
 				89999A991AD2C67A00E65267 /* UIImage+Extend.m in Sources */,
 				89999A981AD2C67A00E65267 /* UIImage+Cut.m in Sources */,
 				89999A911AD2C67A00E65267 /* NSString+Password.m in Sources */,
-				89999A931AD2C67A00E65267 /* UIButton+ImageBtn.m in Sources */,
 				89999A951AD2C67A00E65267 /* UIFont+Extend.m in Sources */,
-				89999A9D1AD2C67A00E65267 /* UIImage+TintColor.m in Sources */,
-				89999A961AD2C67A00E65267 /* UIImage+Blur.m in Sources */,
 				89999A941AD2C67A00E65267 /* UIColor+Extend.m in Sources */,
 				89999A8E1AD2C67A00E65267 /* CAAnimation+Make.m in Sources */,
 				89999A901AD2C67A00E65267 /* NSObject+Extend.m in Sources */,
 				89999A8F1AD2C67A00E65267 /* NSArray+Extend.m in Sources */,
 				891994B11AE636AA0049CD62 /* UIImage+Water.m in Sources */,
 				89999AA21AD2C70800E65267 /* NSDate+Extend.m in Sources */,
-				89999A9C1AD2C67A00E65267 /* UIImage+RTTint.m in Sources */,
 				89999AA51AD2CF5400E65267 /* NSString+Extend.m in Sources */,
 				D6A615AE1AAAA33C006CCBF3 /* main.m in Sources */,
 				89999A971AD2C67A00E65267 /* UIImage+Color.m in Sources */,
 				89999A9E1AD2C67A00E65267 /* UIView+Extend.m in Sources */,
-				89999A9B1AD2C67A00E65267 /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,6 +673,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CoreCategory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -730,6 +685,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CoreCategory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
