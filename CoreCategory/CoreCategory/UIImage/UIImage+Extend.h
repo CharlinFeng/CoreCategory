@@ -36,7 +36,14 @@
 
 
 
+
+/**
+ *  保存相册
+ *
+ *  @param completeBlock 完成回调
+ */
 -(void)savedPhotosAlbum:(void(^)())completeBlock;
+
 
 
 @end

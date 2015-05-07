@@ -31,10 +31,13 @@
 
 
 
+
 /**
  *  直接截屏
  */
 +(UIImage *)cutScreen;
+
+
 
 
 

@@ -91,7 +91,11 @@ static const void *CompleteBlockKey = &CompleteBlockKey;
 
 
 
-
+/**
+ *  保存相册
+ *
+ *  @param completeBlock 完成回调
+ */
 -(void)savedPhotosAlbum:(void(^)())completeBlock{
     
     UIImageWriteToSavedPhotosAlbum(self, self, @selector(image:didFinishSavingWithError:contextInfo:completeBlock:),NULL);
