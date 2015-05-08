@@ -63,7 +63,7 @@
     
     //右
     if(UIViewBorderDirectRight==direct){
-        vfl_H=@"H:|-x-[line(==w)]";
+        vfl_H=@"H:[line(==w)]-0-|";
         vfl_W=@"V:|-0-[line]-0-|";
     }
 
