@@ -10,4 +10,6 @@
 
 @implementation UIDevice (Extend)
 
+
+
 @end

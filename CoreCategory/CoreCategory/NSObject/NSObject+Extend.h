@@ -7,20 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+
+//动态Get方法
+#define categoryPropertyGet(property) return objc_getAssociatedObject(self,@#property);
+//动态Set方法
+#define categoryPropertySet(property) objc_setAssociatedObject(self,@#property, property, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+
+
 
 @interface NSObject (Extend)
 
 
-/**
- *  返回任意对象的字符串式的内存地址
- */
--(NSString *)address;
 
 
-/**
- *  调用方法
- */
--(void)callSelectorWithSelString:(NSString *)selString paramObj:(id)paramObj;
+
+
+
+
 
 
 @end

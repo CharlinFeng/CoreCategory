@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>03266245-B805-4911-89D3-D2741C933451</string>
 	<key>IDESourceControlProjectName</key>
-	<string>CoreCategory</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>744FBCE3531FBF2E43511D218194754E2E0263A2</key>
 		<string>https://github.com/nsdictionary/CoreCategory.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CoreCategory.xcodeproj</string>
+	<string>CoreCategory.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>744FBCE3531FBF2E43511D218194754E2E0263A2</key>

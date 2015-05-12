@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSObject+Extend.h"
 
 //ios系统版本
 #define ios8x [[[UIDevice currentDevice] systemVersion] floatValue] >=8.0f
@@ -24,6 +25,7 @@
 #define iphone6Plus_5_5 ([UIScreen mainScreen].bounds.size.height==736.0f || [UIScreen mainScreen].bounds.size.height==414.0f)
 
 @interface UIDevice (Extend)
+
 
 
 @end
