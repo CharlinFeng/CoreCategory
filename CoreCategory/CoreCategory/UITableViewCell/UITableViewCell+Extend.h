@@ -20,4 +20,17 @@
  */
 +(instancetype)cellWithTableView:(UITableView *)tableView;
 
+
+
+
+/**
+ *  cell向下移动，留出空隙
+ *
+ *  @param frame 原frame
+ *  @param down  向下移动的距离
+ *
+ *  @return 新的frame
+ */
+-(CGRect)cellMove:(CGRect)frame down:(CGFloat)down;
+
 @end
