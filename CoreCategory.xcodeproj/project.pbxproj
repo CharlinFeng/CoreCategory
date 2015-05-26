@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		891994B11AE636AA0049CD62 /* UIImage+Water.m in Sources */ = {isa = PBXBuildFile; fileRef = 891994B01AE636AA0049CD62 /* UIImage+Water.m */; };
+		892D78291B145DAB00E1A05A /* CALayerAnimConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 892D78281B145DAB00E1A05A /* CALayerAnimConst.m */; };
 		8966D32F1AFA688300E0E0E3 /* ep.png in Resources */ = {isa = PBXBuildFile; fileRef = 8966D32E1AFA688300E0E0E3 /* ep.png */; };
 		8966D3331AFA6A8D00E0E0E3 /* UIDevice+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8966D3321AFA6A8D00E0E0E3 /* UIDevice+Extend.m */; };
 		8966D33D1AFA6B8B00E0E0E3 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 8966D33A1AFA6B8B00E0E0E3 /* CALayer+Anim.m */; };
@@ -78,6 +79,8 @@
 /* Begin PBXFileReference section */
 		891994AF1AE636AA0049CD62 /* UIImage+Water.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Water.h"; sourceTree = "<group>"; };
 		891994B01AE636AA0049CD62 /* UIImage+Water.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Water.m"; sourceTree = "<group>"; };
+		892D78271B145DAB00E1A05A /* CALayerAnimConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerAnimConst.h; sourceTree = "<group>"; };
+		892D78281B145DAB00E1A05A /* CALayerAnimConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerAnimConst.m; sourceTree = "<group>"; };
 		8966D32E1AFA688300E0E0E3 /* ep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ep.png; sourceTree = "<group>"; };
 		8966D3311AFA6A8D00E0E0E3 /* UIDevice+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extend.h"; sourceTree = "<group>"; };
 		8966D3321AFA6A8D00E0E0E3 /* UIDevice+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extend.m"; sourceTree = "<group>"; };
@@ -180,6 +183,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		892D78261B145D7A00E1A05A /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				892D78271B145DAB00E1A05A /* CALayerAnimConst.h */,
+				892D78281B145DAB00E1A05A /* CALayerAnimConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
 		8966D3301AFA6A7B00E0E0E3 /* UIDevice */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +204,7 @@
 		8966D3381AFA6B8B00E0E0E3 /* CALayer */ = {
 			isa = PBXGroup;
 			children = (
+				892D78261B145D7A00E1A05A /* Const */,
 				8966D3391AFA6B8B00E0E0E3 /* CALayer+Anim.h */,
 				8966D33A1AFA6B8B00E0E0E3 /* CALayer+Anim.m */,
 				8966D33B1AFA6B8B00E0E0E3 /* CALayer+Transition.h */,
@@ -577,6 +590,7 @@
 				89999A9F1AD2C67A00E65267 /* UIWindow+Launch.m in Sources */,
 				89999A9A1AD2C67A00E65267 /* UIImage+FixOrientation.m in Sources */,
 				89999A991AD2C67A00E65267 /* UIImage+Extend.m in Sources */,
+				892D78291B145DAB00E1A05A /* CALayerAnimConst.m in Sources */,
 				89999A981AD2C67A00E65267 /* UIImage+Cut.m in Sources */,
 				89999A911AD2C67A00E65267 /* NSString+Password.m in Sources */,
 				89999A951AD2C67A00E65267 /* UIFont+Extend.m in Sources */,

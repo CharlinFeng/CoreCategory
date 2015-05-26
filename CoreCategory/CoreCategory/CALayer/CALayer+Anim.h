@@ -7,7 +7,7 @@
 //
 
 #import <QuartzCore/QuartzCore.h>
-
+#import "CALayerAnimConst.h"
 
 /*
  *  反转方向
@@ -32,8 +32,8 @@ typedef enum {
 @interface CALayer (Anim)
 
 
-
--(CAAnimation *)anim_shake:(NSArray *)rotations duration:(NSTimeInterval)duration repeatCount:(NSUInteger)repeatCount;
+/** 封装的关键帧动画 */
+-(CAAnimation *)animWithKeyPath:(NSString *)keyPath kfs:(NSArray *)kfs duration:(NSTimeInterval)duration repeatCount:(NSUInteger)repeatCount;
 
 
 -(CAAnimation *)anim_revers:(AnimReverDirection)direction duration:(NSTimeInterval)duration isReverse:(BOOL)isReverse repeatCount:(NSUInteger)repeatCount timingFuncName:(NSString *)timingFuncName;
