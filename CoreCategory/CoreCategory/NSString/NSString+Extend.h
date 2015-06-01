@@ -18,7 +18,10 @@
 
 
 
-
+/**
+ *  时间戳转格式化的时间字符串
+ */
+-(NSString *)timestampToTimeStringWithFormatString:(NSString *)formatString;
 
 
 

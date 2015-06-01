@@ -22,7 +22,28 @@
 }
 
 
+/**
+ *  时间戳转格式化的时间字符串
+ */
+-(NSString *)timestampToTimeStringWithFormatString:(NSString *)formatString{
+    //时间戳转date
+    NSDate *date=[NSDate dateWithTimeIntervalSince1970:[self integerValue]];
+    
+    return [self timeStringFromDate:date formatString:formatString];
+}
 
+-(NSString *)timeStringFromDate:(NSDate *)date formatString:(NSString *)formatString{
+    //实例化时间格式化工具
+    NSDateFormatter *formatter=[[NSDateFormatter alloc] init];
+    
+    //定义格式
+    formatter.dateFormat=formatString;
+    
+    //时间转化为字符串
+    NSString *dateString = [formatter stringFromDate:date];
+    
+    return dateString;
+}
 
 
 @end
