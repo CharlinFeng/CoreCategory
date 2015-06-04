@@ -11,6 +11,21 @@
 @implementation NSString (Extend)
 
 
+/** 删除所有的空格 */
+-(NSString *)deleteSpace{
+    
+    NSMutableString *strM = [NSMutableString stringWithString:self];
+    
+    [strM replaceOccurrencesOfString:@" " withString:@"" options:NSLiteralSearch range:NSMakeRange(0, strM.length)];
+    
+    return [strM copy];
+}
+
+
+
+
+
+
 /*
  *  时间戳对应的NSDate
  */
