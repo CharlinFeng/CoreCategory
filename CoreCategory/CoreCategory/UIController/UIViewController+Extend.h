@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CheckTFModel.h"
+
 
 @interface UIViewController (Extend)
 
 
 /** 校验输入框 */
-+(BOOL)checkTFWithTrigger:(UIView *)trigger checkTFModelsBlock:(NSArray *(^)())checkTFModelsBlock resBlock:(void (^)(NSString *res))resBlock;
+-(BOOL)checkTFWithTrigger:(UIView *)trigger checkTFModelsBlock:(NSArray *(^)())checkTFModelsBlock resBlock:(void (^)(NSString *res))resBlock;
 
 
 
