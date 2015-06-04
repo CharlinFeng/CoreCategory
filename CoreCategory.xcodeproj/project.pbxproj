@@ -14,6 +14,8 @@
 		8966D33D1AFA6B8B00E0E0E3 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 8966D33A1AFA6B8B00E0E0E3 /* CALayer+Anim.m */; };
 		8966D33E1AFA6B8B00E0E0E3 /* CALayer+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8966D33C1AFA6B8B00E0E0E3 /* CALayer+Transition.m */; };
 		897C34F61B1468C900DEDFFF /* UIBarButtonItem+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 897C34F51B1468C900DEDFFF /* UIBarButtonItem+Extend.m */; };
+		899384DE1B1FF3EA00127133 /* UIViewController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384DD1B1FF3EA00127133 /* UIViewController+Extend.m */; };
+		899384E21B1FF43200127133 /* CheckTFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384E11B1FF43200127133 /* CheckTFModel.m */; };
 		89999A3F1AD2C49800E65267 /* 05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 89999A1E1AD2C49800E65267 /* 05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet */; };
 		89999A401AD2C49800E65267 /* 0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 89999A1F1AD2C49800E65267 /* 0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet */; };
 		89999A411AD2C49800E65267 /* 0FD636EB-A690-4719-90F7-19572E156EDF.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 89999A201AD2C49800E65267 /* 0FD636EB-A690-4719-90F7-19572E156EDF.codesnippet */; };
@@ -91,6 +93,10 @@
 		8966D33C1AFA6B8B00E0E0E3 /* CALayer+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Transition.m"; sourceTree = "<group>"; };
 		897C34F41B1468C900DEDFFF /* UIBarButtonItem+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extend.h"; sourceTree = "<group>"; };
 		897C34F51B1468C900DEDFFF /* UIBarButtonItem+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extend.m"; sourceTree = "<group>"; };
+		899384DC1B1FF3EA00127133 /* UIViewController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extend.h"; sourceTree = "<group>"; };
+		899384DD1B1FF3EA00127133 /* UIViewController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extend.m"; sourceTree = "<group>"; };
+		899384E01B1FF43200127133 /* CheckTFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTFModel.h; sourceTree = "<group>"; };
+		899384E11B1FF43200127133 /* CheckTFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTFModel.m; sourceTree = "<group>"; };
 		89999A1C1AD2C49800E65267 /* CodeBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeBlock.h; sourceTree = "<group>"; };
 		89999A1E1AD2C49800E65267 /* 05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet"; sourceTree = "<group>"; };
 		89999A1F1AD2C49800E65267 /* 0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet"; sourceTree = "<group>"; };
@@ -225,6 +231,25 @@
 			path = UIBarbuttonItem;
 			sourceTree = "<group>";
 		};
+		899384DB1B1FF3BE00127133 /* UIController */ = {
+			isa = PBXGroup;
+			children = (
+				899384DF1B1FF41E00127133 /* Lib */,
+				899384DC1B1FF3EA00127133 /* UIViewController+Extend.h */,
+				899384DD1B1FF3EA00127133 /* UIViewController+Extend.m */,
+			);
+			path = UIController;
+			sourceTree = "<group>";
+		};
+		899384DF1B1FF41E00127133 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				899384E01B1FF43200127133 /* CheckTFModel.h */,
+				899384E11B1FF43200127133 /* CheckTFModel.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
 		89999A1A1AD2C47E00E65267 /* FrameWorks */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +310,7 @@
 		89999A5D1AD2C67A00E65267 /* CoreCategory */ = {
 			isa = PBXGroup;
 			children = (
+				899384DB1B1FF3BE00127133 /* UIController */,
 				897C34F31B1468C900DEDFFF /* UIBarbuttonItem */,
 				89F702D31AFB34DB00B048E8 /* UITableViewCell */,
 				8966D3381AFA6B8B00E0E0E3 /* CALayer */,
@@ -607,6 +633,7 @@
 				89999A981AD2C67A00E65267 /* UIImage+Cut.m in Sources */,
 				89999A911AD2C67A00E65267 /* NSString+Password.m in Sources */,
 				89999A951AD2C67A00E65267 /* UIFont+Extend.m in Sources */,
+				899384E21B1FF43200127133 /* CheckTFModel.m in Sources */,
 				89999A941AD2C67A00E65267 /* UIColor+Extend.m in Sources */,
 				89999A901AD2C67A00E65267 /* NSObject+Extend.m in Sources */,
 				89999A8F1AD2C67A00E65267 /* NSArray+Extend.m in Sources */,
@@ -615,6 +642,7 @@
 				89999AA51AD2CF5400E65267 /* NSString+Extend.m in Sources */,
 				D6A615AE1AAAA33C006CCBF3 /* main.m in Sources */,
 				89999A971AD2C67A00E65267 /* UIImage+Color.m in Sources */,
+				899384DE1B1FF3EA00127133 /* UIViewController+Extend.m in Sources */,
 				89F702D61AFB34DB00B048E8 /* UITableViewCell+Extend.m in Sources */,
 				89999A9E1AD2C67A00E65267 /* UIView+Extend.m in Sources */,
 				897C34F61B1468C900DEDFFF /* UIBarButtonItem+Extend.m in Sources */,
