@@ -13,6 +13,13 @@
 @interface UIViewController (Extend)
 
 
+/** 隐藏左上角按钮 */
+-(void)hideLeftItem;
+
+
+
+
+
 /** 校验输入框 */
 -(BOOL)checkTFWithTrigger:(UIView *)trigger checkTFModelsBlock:(NSArray *(^)())checkTFModelsBlock resBlock:(void (^)(NSString *res))resBlock;
 

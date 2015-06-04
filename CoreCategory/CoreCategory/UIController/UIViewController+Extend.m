@@ -11,6 +11,14 @@
 
 @implementation UIViewController (Extend)
 
+/** 隐藏左上角按钮 */
+-(void)hideLeftItem{
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:[[UIView alloc] init]];
+}
+
+
+
+
 /** 校验输入框 */
 -(BOOL)checkTFWithTrigger:(UIView *)trigger checkTFModelsBlock:(NSArray *(^)())checkTFModelsBlock resBlock:(void (^)(NSString *res))resBlock{
     
