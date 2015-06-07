@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		8955C2441B242A1300135D55 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 8955C2161B242A1300135D55 /* CALayer+Anim.m */; };
 		8955C2451B242A1300135D55 /* CALayer+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8955C2181B242A1300135D55 /* CALayer+Transition.m */; };
 		8955C2461B242A1300135D55 /* NSArray+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8955C21B1B242A1300135D55 /* NSArray+Extend.m */; };
@@ -26,6 +27,17 @@
 		8955C2541B242A1300135D55 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8955C2401B242A1300135D55 /* UIView+Extend.m */; };
 		8955C2551B242A1300135D55 /* UIWindow+Launch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8955C2431B242A1300135D55 /* UIWindow+Launch.m */; };
 		8966D32F1AFA688300E0E0E3 /* ep.png in Resources */ = {isa = PBXBuildFile; fileRef = 8966D32E1AFA688300E0E0E3 /* ep.png */; };
+=======
+		891994B11AE636AA0049CD62 /* UIImage+Water.m in Sources */ = {isa = PBXBuildFile; fileRef = 891994B01AE636AA0049CD62 /* UIImage+Water.m */; };
+		892D78291B145DAB00E1A05A /* CALayerAnimConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 892D78281B145DAB00E1A05A /* CALayerAnimConst.m */; };
+		8966D32F1AFA688300E0E0E3 /* ep.png in Resources */ = {isa = PBXBuildFile; fileRef = 8966D32E1AFA688300E0E0E3 /* ep.png */; };
+		8966D3331AFA6A8D00E0E0E3 /* UIDevice+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8966D3321AFA6A8D00E0E0E3 /* UIDevice+Extend.m */; };
+		8966D33D1AFA6B8B00E0E0E3 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 8966D33A1AFA6B8B00E0E0E3 /* CALayer+Anim.m */; };
+		8966D33E1AFA6B8B00E0E0E3 /* CALayer+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8966D33C1AFA6B8B00E0E0E3 /* CALayer+Transition.m */; };
+		897C34F61B1468C900DEDFFF /* UIBarButtonItem+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 897C34F51B1468C900DEDFFF /* UIBarButtonItem+Extend.m */; };
+		899384DE1B1FF3EA00127133 /* UIViewController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384DD1B1FF3EA00127133 /* UIViewController+Extend.m */; };
+		899384E21B1FF43200127133 /* CheckTFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 899384E11B1FF43200127133 /* CheckTFModel.m */; };
+>>>>>>> origin/master
 		89999A3F1AD2C49800E65267 /* 05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 89999A1E1AD2C49800E65267 /* 05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet */; };
 		89999A401AD2C49800E65267 /* 0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 89999A1F1AD2C49800E65267 /* 0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet */; };
 		89999A411AD2C49800E65267 /* 0FD636EB-A690-4719-90F7-19572E156EDF.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 89999A201AD2C49800E65267 /* 0FD636EB-A690-4719-90F7-19572E156EDF.codesnippet */; };
@@ -76,6 +88,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		8955C2151B242A1300135D55 /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
 		8955C2161B242A1300135D55 /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
 		8955C2171B242A1300135D55 /* CALayer+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Transition.h"; sourceTree = "<group>"; };
@@ -113,6 +126,25 @@
 		8955C2421B242A1300135D55 /* UIWindow+Launch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Launch.h"; sourceTree = "<group>"; };
 		8955C2431B242A1300135D55 /* UIWindow+Launch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Launch.m"; sourceTree = "<group>"; };
 		8966D32E1AFA688300E0E0E3 /* ep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ep.png; sourceTree = "<group>"; };
+=======
+		891994AF1AE636AA0049CD62 /* UIImage+Water.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Water.h"; sourceTree = "<group>"; };
+		891994B01AE636AA0049CD62 /* UIImage+Water.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Water.m"; sourceTree = "<group>"; };
+		892D78271B145DAB00E1A05A /* CALayerAnimConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerAnimConst.h; sourceTree = "<group>"; };
+		892D78281B145DAB00E1A05A /* CALayerAnimConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerAnimConst.m; sourceTree = "<group>"; };
+		8966D32E1AFA688300E0E0E3 /* ep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ep.png; sourceTree = "<group>"; };
+		8966D3311AFA6A8D00E0E0E3 /* UIDevice+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extend.h"; sourceTree = "<group>"; };
+		8966D3321AFA6A8D00E0E0E3 /* UIDevice+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extend.m"; sourceTree = "<group>"; };
+		8966D3391AFA6B8B00E0E0E3 /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
+		8966D33A1AFA6B8B00E0E0E3 /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
+		8966D33B1AFA6B8B00E0E0E3 /* CALayer+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Transition.h"; sourceTree = "<group>"; };
+		8966D33C1AFA6B8B00E0E0E3 /* CALayer+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Transition.m"; sourceTree = "<group>"; };
+		897C34F41B1468C900DEDFFF /* UIBarButtonItem+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extend.h"; sourceTree = "<group>"; };
+		897C34F51B1468C900DEDFFF /* UIBarButtonItem+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extend.m"; sourceTree = "<group>"; };
+		899384DC1B1FF3EA00127133 /* UIViewController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extend.h"; sourceTree = "<group>"; };
+		899384DD1B1FF3EA00127133 /* UIViewController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extend.m"; sourceTree = "<group>"; };
+		899384E01B1FF43200127133 /* CheckTFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTFModel.h; sourceTree = "<group>"; };
+		899384E11B1FF43200127133 /* CheckTFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTFModel.m; sourceTree = "<group>"; };
+>>>>>>> origin/master
 		89999A1C1AD2C49800E65267 /* CodeBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeBlock.h; sourceTree = "<group>"; };
 		89999A1E1AD2C49800E65267 /* 05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet"; sourceTree = "<group>"; };
 		89999A1F1AD2C49800E65267 /* 0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet"; sourceTree = "<group>"; };
@@ -180,7 +212,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		8955C2131B242A1300135D55 /* CoreCategory */ = {
+=======
+		892D78261B145D7A00E1A05A /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				892D78271B145DAB00E1A05A /* CALayerAnimConst.h */,
+				892D78281B145DAB00E1A05A /* CALayerAnimConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		8966D3301AFA6A7B00E0E0E3 /* UIDevice */ = {
+>>>>>>> origin/master
 			isa = PBXGroup;
 			children = (
 				8955C2141B242A1300135D55 /* CALayer */,
@@ -202,15 +247,55 @@
 		8955C2141B242A1300135D55 /* CALayer */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				8955C2151B242A1300135D55 /* CALayer+Anim.h */,
 				8955C2161B242A1300135D55 /* CALayer+Anim.m */,
 				8955C2171B242A1300135D55 /* CALayer+Transition.h */,
 				8955C2181B242A1300135D55 /* CALayer+Transition.m */,
+=======
+				892D78261B145D7A00E1A05A /* Const */,
+				8966D3391AFA6B8B00E0E0E3 /* CALayer+Anim.h */,
+				8966D33A1AFA6B8B00E0E0E3 /* CALayer+Anim.m */,
+				8966D33B1AFA6B8B00E0E0E3 /* CALayer+Transition.h */,
+				8966D33C1AFA6B8B00E0E0E3 /* CALayer+Transition.m */,
+>>>>>>> origin/master
 			);
 			path = CALayer;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		8955C2191B242A1300135D55 /* NSArray */ = {
+=======
+		897C34F31B1468C900DEDFFF /* UIBarbuttonItem */ = {
+			isa = PBXGroup;
+			children = (
+				897C34F41B1468C900DEDFFF /* UIBarButtonItem+Extend.h */,
+				897C34F51B1468C900DEDFFF /* UIBarButtonItem+Extend.m */,
+			);
+			path = UIBarbuttonItem;
+			sourceTree = "<group>";
+		};
+		899384DB1B1FF3BE00127133 /* UIController */ = {
+			isa = PBXGroup;
+			children = (
+				899384DF1B1FF41E00127133 /* Lib */,
+				899384DC1B1FF3EA00127133 /* UIViewController+Extend.h */,
+				899384DD1B1FF3EA00127133 /* UIViewController+Extend.m */,
+			);
+			path = UIController;
+			sourceTree = "<group>";
+		};
+		899384DF1B1FF41E00127133 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				899384E01B1FF43200127133 /* CheckTFModel.h */,
+				899384E11B1FF43200127133 /* CheckTFModel.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		89999A1A1AD2C47E00E65267 /* FrameWorks */ = {
+>>>>>>> origin/master
 			isa = PBXGroup;
 			children = (
 				8955C21A1B242A1300135D55 /* NSArray+Extend.h */,
@@ -240,10 +325,27 @@
 		8955C2221B242A1300135D55 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				8955C2231B242A1300135D55 /* NSString+Extend.h */,
 				8955C2241B242A1300135D55 /* NSString+Extend.m */,
 				8955C2251B242A1300135D55 /* NSString+Password.h */,
 				8955C2261B242A1300135D55 /* NSString+Password.m */,
+=======
+				899384DB1B1FF3BE00127133 /* UIController */,
+				897C34F31B1468C900DEDFFF /* UIBarbuttonItem */,
+				89F702D31AFB34DB00B048E8 /* UITableViewCell */,
+				8966D3381AFA6B8B00E0E0E3 /* CALayer */,
+				8966D3301AFA6A7B00E0E0E3 /* UIDevice */,
+				89999A611AD2C67A00E65267 /* NSArray */,
+				89999A641AD2C67A00E65267 /* NSDate */,
+				89999A651AD2C67A00E65267 /* NSObject */,
+				89999A681AD2C67A00E65267 /* NSString */,
+				89999A701AD2C67A00E65267 /* UIColor */,
+				89999A731AD2C67A00E65267 /* UIFont */,
+				89999A761AD2C67A00E65267 /* UIImage */,
+				89999A881AD2C67A00E65267 /* UIView */,
+				89999A8B1AD2C67A00E65267 /* UIWindow */,
+>>>>>>> origin/master
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -574,6 +676,7 @@
 				8955C2551B242A1300135D55 /* UIWindow+Launch.m in Sources */,
 				8955C24C1B242A1300135D55 /* UIDevice+Extend.m in Sources */,
 				D6A615B11AAAA33C006CCBF3 /* AppDelegate.m in Sources */,
+<<<<<<< HEAD
 				8955C24D1B242A1300135D55 /* UIFont+Extend.m in Sources */,
 				8955C24A1B242A1300135D55 /* NSString+Password.m in Sources */,
 				8955C2491B242A1300135D55 /* NSString+Extend.m in Sources */,
@@ -590,6 +693,29 @@
 				8955C2501B242A1300135D55 /* UIImage+Extend.m in Sources */,
 				8955C2541B242A1300135D55 /* UIView+Extend.m in Sources */,
 				8955C2521B242A1300135D55 /* UIImage+Water.m in Sources */,
+=======
+				8966D33D1AFA6B8B00E0E0E3 /* CALayer+Anim.m in Sources */,
+				89999A9F1AD2C67A00E65267 /* UIWindow+Launch.m in Sources */,
+				89999A9A1AD2C67A00E65267 /* UIImage+FixOrientation.m in Sources */,
+				89999A991AD2C67A00E65267 /* UIImage+Extend.m in Sources */,
+				892D78291B145DAB00E1A05A /* CALayerAnimConst.m in Sources */,
+				89999A981AD2C67A00E65267 /* UIImage+Cut.m in Sources */,
+				89999A911AD2C67A00E65267 /* NSString+Password.m in Sources */,
+				89999A951AD2C67A00E65267 /* UIFont+Extend.m in Sources */,
+				899384E21B1FF43200127133 /* CheckTFModel.m in Sources */,
+				89999A941AD2C67A00E65267 /* UIColor+Extend.m in Sources */,
+				89999A901AD2C67A00E65267 /* NSObject+Extend.m in Sources */,
+				89999A8F1AD2C67A00E65267 /* NSArray+Extend.m in Sources */,
+				891994B11AE636AA0049CD62 /* UIImage+Water.m in Sources */,
+				89999AA21AD2C70800E65267 /* NSDate+Extend.m in Sources */,
+				89999AA51AD2CF5400E65267 /* NSString+Extend.m in Sources */,
+				D6A615AE1AAAA33C006CCBF3 /* main.m in Sources */,
+				89999A971AD2C67A00E65267 /* UIImage+Color.m in Sources */,
+				899384DE1B1FF3EA00127133 /* UIViewController+Extend.m in Sources */,
+				89F702D61AFB34DB00B048E8 /* UITableViewCell+Extend.m in Sources */,
+				89999A9E1AD2C67A00E65267 /* UIView+Extend.m in Sources */,
+				897C34F61B1468C900DEDFFF /* UIBarButtonItem+Extend.m in Sources */,
+>>>>>>> origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

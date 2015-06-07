@@ -182,7 +182,7 @@
 #pragma mark  圆角处理
 -(void)setRadius:(CGFloat)r{
     
-    if(r<=0) r=self.frame.size.width * .5f;
+    if(r<=0) r=self.bounds.size.width * .5f;
     
     //圆角半径
     self.layer.cornerRadius=r;

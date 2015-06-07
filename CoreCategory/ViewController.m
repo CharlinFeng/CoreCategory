@@ -10,12 +10,18 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIView *redView;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
 }
+
+
+
 
 @end

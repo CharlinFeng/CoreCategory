@@ -87,7 +87,7 @@
 -(NSString *)animaTypeWithTransitionType:(TransitionAnimType)type{
     
     //设置转场动画的类型
-    NSArray *animArray=@[@"rippleEffect",@"suckEffect",@"pageCurl",@"oglFlip",@"cube",@"reveal",@"pageUnCurl"];
+    NSArray *animArray=@[@"rippleEffect",@"suckEffect",@"pageCurl",@"oglFlip",@"cube",@"reveal",@"pageUnCurl",@"push"];
     
     return [self objFromArray:animArray index:type isRamdom:(TransitionAnimTypeRamdom == type)];
 }

@@ -35,4 +35,25 @@
     return cell;
 }
 
+
+
+/**
+ *  cell向下移动，留出空隙
+ *
+ *  @param frame 原frame
+ *  @param down  向下移动的距离
+ *
+ *  @return 新的frame
+ */
+-(CGRect)cellMove:(CGRect)frame down:(CGFloat)down{
+    
+    CGFloat topMargin = down;
+    
+    frame.origin.y+=topMargin;
+    
+    frame.size.height-=topMargin;
+    
+    return frame;
+}
+
 @end

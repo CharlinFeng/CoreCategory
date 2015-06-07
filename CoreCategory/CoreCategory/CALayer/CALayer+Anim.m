@@ -11,13 +11,15 @@
 @implementation CALayer (Anim)
 
 
--(CAAnimation *)anim_shake:(NSArray *)rotations duration:(NSTimeInterval)duration repeatCount:(NSUInteger)repeatCount{
+
+/** 封装的关键帧动画 */
+-(CAAnimation *)animWithKeyPath:(NSString *)keyPath kfs:(NSArray *)kfs duration:(NSTimeInterval)duration repeatCount:(NSUInteger)repeatCount{
     
     //创建关键帧动画
-    CAKeyframeAnimation *kfa = [CAKeyframeAnimation animationWithKeyPath:@"transform.rotation.z"];
+    CAKeyframeAnimation *kfa = [CAKeyframeAnimation animationWithKeyPath:keyPath];
     
     //指定值
-    kfa.values = rotations;
+    kfa.values = kfs;
     
     //时长
     kfa.duration = duration;
@@ -29,10 +31,14 @@
     kfa.removedOnCompletion = YES;
     
     //添加
-    [self addAnimation:kfa forKey:@"rotation"];
+    [self addAnimation:kfa forKey:keyPath];
     
     return kfa;
 }
+
+
+
+
 
 
 
