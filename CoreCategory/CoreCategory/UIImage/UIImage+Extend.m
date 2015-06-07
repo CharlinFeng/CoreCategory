@@ -7,8 +7,8 @@
 //
 
 #import "UIImage+Extend.h"
-#import "CoreConst.h"
 #import <objc/runtime.h>
+#import "UIDevice+Extend.h"
 
 static const void *CompleteBlockKey = &CompleteBlockKey;
 static const void *FailBlockKey = &FailBlockKey;
