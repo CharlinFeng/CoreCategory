@@ -34,6 +34,10 @@ static const void *FailBlockKey = &FailBlockKey;
     
     if(iphone5x_4_0) imageName=@"LaunchImage-700-568h";
     
+    if(iphone6_4_7) imageName = @"LaunchImage-800-667h";
+    
+    if(iphone6Plus_5_5) imageName = @"LaunchImage-800-Portrait-736h";
+    
     return [UIImage imageNamed:imageName];
 }
 
